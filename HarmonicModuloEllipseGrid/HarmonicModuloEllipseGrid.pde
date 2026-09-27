@@ -3,7 +3,7 @@ int size = 500;
 int org=size/O;
 int amt=5;
 int c=25;
-float t=0;
+float t=0.0;
 float at;
 boolean ell_on=false; // if false, will display arc mode, else ellipse mode.
 boolean mod_rot=false; //  if true will rotate each ellipse.
