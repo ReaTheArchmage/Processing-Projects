@@ -1,5 +1,5 @@
 final int amt=20;
-int s=2000;
+int s=1000;
 int dv=2;
 int hs=s/dv;
 
@@ -19,6 +19,8 @@ void setup() {
     s/=dv;
     c*=dv;
 }}
+
+
 void clrz(int c,int x){
   int cl=255;
   stroke(c,cl-(c/x),cl-(c/x));

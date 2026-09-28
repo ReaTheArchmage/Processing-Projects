@@ -5,14 +5,14 @@ int amt=5;
 int c=25;
 float t=0.0;
 float at;
-boolean ell_on=false; // if false, will display arc mode, else ellipse mode.
+boolean ell_on=true; // if false, will display arc mode, else ellipse mode.
 boolean mod_rot=false; //  if true will rotate each ellipse.
 boolean squared=false; // if true will calculate emission rythm with squared numbers.
 
 void setup() {
   strokeWeight(1);
   size(500,500);
-  frameRate(20);
+  frameRate(50);
   noFill();
 }
 void draw() {
